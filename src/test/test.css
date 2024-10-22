@@ -1,0 +1,27 @@
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.image-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+    max-width: 90%;
+    border-radius: 4px;
+    height: 350px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 16px;
+}
